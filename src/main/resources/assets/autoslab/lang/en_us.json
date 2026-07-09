@@ -1,0 +1,23 @@
+{
+  "key.autoslab.activate": "Auto-place slabs",
+  "key.categories.autoslab": "AutoSlab",
+
+  "autoslab.message.enabled": "AutoSlab: включён",
+  "autoslab.message.disabled": "AutoSlab: выключен",
+  "autoslab.message.interval": "AutoSlab: интервал расстановки = %s тик(ов)",
+  "autoslab.message.radius": "AutoSlab: радиус поиска = %s блок(ов)",
+  "autoslab.message.usage": "Использование: /autoslab <toggle|interval <тики>|radius <блоки>|status>",
+  "autoslab.message.status": "AutoSlab: %s, интервал=%s тик, радиус=%s блок",
+
+  "autoslab.config.title": "AutoSlab - настройки",
+  "autoslab.config.category.general": "Основное",
+  "autoslab.config.enabled": "Включить AutoSlab",
+  "autoslab.config.enabled.tooltip": "Полностью включает или выключает мод.",
+  "autoslab.config.interval": "Интервал расстановки",
+  "autoslab.config.interval.value": "%s тик(ов)",
+  "autoslab.config.interval.tooltip": "Сколько тиков ждать между установкой каждого полублока (20 тиков = 1 секунда). Меньше значение - быстрее расстановка.",
+  "autoslab.config.radius": "Радиус поиска",
+  "autoslab.config.radius.value": "%s блок(ов)",
+  "autoslab.config.radius.tooltip": "Радиус вокруг игрока, в котором мод ищет подходящие полные блоки.",
+  "autoslab.config.key.tooltip": "Клавиша, при удержании которой мод расставляет полублоки. Можно оставить не назначенной."
+}
