@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "autoslab",
+	"version": "${version}",
+	"name": "AutoSlab",
+	"description": "Зажми клавишу — и мод сам расставит полублоки из руки на полные блоки вокруг тебя.",
+"authors": [
+    "OptimistOpti"
+],
+"contact": {
+    "tg": "https://t.me/optimist_opti"
+},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ru.optimist.autoslab.AutoSlabClient"
+		],
+		"modmenu": [
+			"ru.optimist.autoslab.AutoSlabModMenu"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"fabric-api": "*",
+		"cloth-config": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
